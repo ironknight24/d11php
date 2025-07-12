@@ -13,6 +13,8 @@ services:
       - DRUPAL_DB_USER=drupal
       - DRUPAL_DB_PASSWORD=drupal
       - DRUPAL_DB_NAME=drupal
+      - MYSQL_USER=drupal
+      - MYSQL_PASSWORD=drupal
 
   nginx:
     image: nginx:1.25-alpine
